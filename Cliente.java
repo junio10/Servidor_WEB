@@ -37,7 +37,7 @@ public class Cliente {
 
 			clientSocket.setSoTimeout(60000);
 			// Criando arquivo que sera recebido pelo servidor
-			FileOutputStream fileOut = new FileOutputStream(nomeDoArquivo + "Cliente" +".txt");//mudar o tipo de arquivo que quer receber 
+			FileOutputStream fileOut = new FileOutputStream(nomeDoArquivo + "Cliente" +".html");//mudar o tipo de arquivo que quer receber 
 			 																			//nessa linhsa
 
 			// Criando canal de transferencia
